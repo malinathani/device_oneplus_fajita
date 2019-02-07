@@ -20,14 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Ujwal P"
+DEVICE_MAINTAINERS="Mohammed Nathani"
 
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common Aosip stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-PRODUCT_NAME := aosip_fajita
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+PRODUCT_NAME := bootleg_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
