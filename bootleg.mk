@@ -25,7 +25,7 @@ DEVICE_MAINTAINERS="Mohammed Nathani"
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common Aosip stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 PRODUCT_NAME := bootleg_fajita
 PRODUCT_DEVICE := fajita
