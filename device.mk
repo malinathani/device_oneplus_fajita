@@ -42,4 +42,4 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/oneplus/fajita/enchilada-vendor.mk)
+#$(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
