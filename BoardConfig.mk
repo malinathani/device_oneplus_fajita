@@ -16,6 +16,8 @@
 # Inherit from oneplus sdm845-common
 -include device/oneplus/sdm845-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/fajita
+# Kernel
+TARGET_KERNEL_CONFIG := kronic_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # inherit from the proprietary version
