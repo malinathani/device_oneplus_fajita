@@ -380,7 +380,7 @@
         C -149.92,0.81,-167.51.39,-185,0
         Z
     </string>
-
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="status_bar_height_landscape">80px</dimen>
