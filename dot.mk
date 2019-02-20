@@ -25,9 +25,9 @@ DEVICE_MAINTAINERS="Mohammed Nathani"
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
-PRODUCT_NAME := bootleg_fajita
+# Inherit some common DotOS stuff.
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+PRODUCT_NAME := dot_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -44,5 +44,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1811170214 release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1811170214:user/release-keys
-#FOR OFFICIAL DEVICES
-BOOTLEGGERS_BUILD_TYPE := Shishufied
