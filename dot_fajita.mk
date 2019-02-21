@@ -26,7 +26,7 @@ DEVICE_MAINTAINERS="Mohammed Nathani"
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 PRODUCT_NAME := dot_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
